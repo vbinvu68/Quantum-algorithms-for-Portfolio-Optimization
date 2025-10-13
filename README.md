@@ -105,25 +105,21 @@ This script performs K-Means clustering to divide the 31 assets into 5 groups.
 
 Bash
 
-python 01_classical_clustering.py
 Step 2: Generate QUBOs for All Clusters
 This script automatically creates a unique QUBO model for each of the 5 clusters.
 
 Bash
 
-python 03_generate_all_qubos.py
 Step 3: Solve the QUBOs with OpenQAOA
 This is the quantum step. It will solve each of the 5 small QUBO problems locally.
 
 Bash
 
-python 05_solve_all_clusters_local.py
 Step 4: Assemble and Visualize the Final Portfolio
 This script collects the results from the quantum runs, builds the final portfolio, and generates the risk-return plot.
 
 Bash
 
-python 06_assemble_and_visualize.py
 After the final step, a plot named hybrid_risk_return_plot.png will be saved in your project directory.
 
 🤝 Contributing
