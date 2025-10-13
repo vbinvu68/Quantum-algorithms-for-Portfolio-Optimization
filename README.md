@@ -88,9 +88,8 @@ Follow these steps to get the project running on your local machine.
 
 ### 1. Clone the Repository
 
-```sh
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+cd your-repo-name 
 
 2. Install Dependencies
 All required libraries are listed in the requirements.txt file.
