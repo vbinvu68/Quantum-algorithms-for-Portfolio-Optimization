@@ -1,0 +1,11 @@
+# For data handling and classical processing
+pandas
+numpy
+scikit-learn
+
+# For quantum computing with Qiskit
+qiskit
+qiskit-aer
+qiskit-algorithms
+matplotlib
+qiskit-optimization
